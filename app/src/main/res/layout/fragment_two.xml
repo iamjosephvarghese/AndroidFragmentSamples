@@ -1,13 +1,29 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
     tools:context="joseph.roundmelon.com.fragments.FragmentTwo">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="fragment two" />
+        android:layout_height="wrap_content"
+        android:text="fragment two"
+        android:textColor="#fff"/>
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/countTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="Count is 0"/>
+
+    <Button
+        android:id="@+id/incTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click To Increment Count Of Fragment Two" />
+
+
+</LinearLayout>

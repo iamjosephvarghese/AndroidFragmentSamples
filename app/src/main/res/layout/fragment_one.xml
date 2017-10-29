@@ -1,13 +1,28 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
     tools:context="joseph.roundmelon.com.fragments.FragmentOne">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="fragment one" />
+        android:layout_height="wrap_content"
+        android:text="fragment one"
+        android:textColor="#000"/>
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/countOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Count is 0"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/incOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click To Increment Count Of Fragment One" />
+
+</LinearLayout>

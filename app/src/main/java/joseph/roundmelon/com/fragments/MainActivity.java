@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 FragmentManager fragmentManager = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                 fragmentTransaction.replace(R.id.frameLayout,new FragmentOne());
-                fragmentTransaction.addToBackStack(null).commit();
+                fragmentTransaction.commit();
             }
         });
 
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 FragmentManager fragmentManager = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                 fragmentTransaction.replace(R.id.frameLayout, new FragmentTwo());
-                fragmentTransaction.addToBackStack(null).commit();
+                fragmentTransaction.commit();
             }
         });
 

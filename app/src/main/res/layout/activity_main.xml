@@ -8,17 +8,20 @@
     tools:context="joseph.roundmelon.com.fragments.MainActivity">
 
 
-    <Button
-        android:id="@+id/buttonTwo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Fragment Two" />
 
     <Button
         android:id="@+id/buttonOne"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Fragment One" />
+
+    <Button
+        android:id="@+id/buttonTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment Two" />
+
+
 
     <FrameLayout
         android:id="@+id/frameLayout"
